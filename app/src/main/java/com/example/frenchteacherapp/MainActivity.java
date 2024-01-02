@@ -9,12 +9,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     Button blackBtn, yellowBtn, redBtn, purpleBtn, greenBtn;
-    // For trying commit
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        System.out.println("For trying commit");
         blackBtn = findViewById(R.id.blackButton);
         yellowBtn = findViewById(R.id.yellowButton);
         redBtn = findViewById(R.id.redButton);
