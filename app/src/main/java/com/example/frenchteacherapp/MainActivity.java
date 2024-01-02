@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        System.out.println("For trying commit");
+        System.out.println("For trying commit!");
         blackBtn = findViewById(R.id.blackButton);
         yellowBtn = findViewById(R.id.yellowButton);
         redBtn = findViewById(R.id.redButton);
